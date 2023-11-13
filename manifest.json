@@ -1,5 +1,5 @@
 {
-  "name": "Copenhagen",
+  "name": "Copenhagen2",
   "author": "Zendesk",
   "version": "3.1.2",
   "api_version": 3,
@@ -405,6 +405,18 @@
       ]
     },
     {
+      "label": "header_group_label",
+      "variables": [
+        {
+          "identifier": "header_name",
+          "type": "text",
+          "description": "header_name_description",
+          "label": "header_name_label",
+          "value": "none"
+        }
+      ]
+    },
+    {
       "label": "footer_group_label",
       "variables": [
         {
@@ -412,7 +424,7 @@
           "type": "text",
           "description": "footer_name_description",
           "label": "footer_name_label",
-          "value": ""
+          "value": "none"
         }
       ]
     }
