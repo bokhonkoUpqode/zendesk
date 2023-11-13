@@ -5,6 +5,21 @@
   const ENTER = 13;
   const ESCAPE = 27;
 
+  const comments = [
+    {
+      name: 'Name1',
+      text: 'lkdf1'
+    },
+    {
+      name: 'Name2',
+      text: 'lkdf2'
+    },
+    {
+      name: 'Name3',
+      text: 'lkdf3'
+    },
+  ]
+
   function toggleNavigation(toggle, menu) {
     const isExpanded = menu.getAttribute("aria-expanded") === "true";
     menu.setAttribute("aria-expanded", !isExpanded);

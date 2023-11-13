@@ -9,7 +9,12 @@
       {{/if}}
     {{/link}}
   </div>
-
+  {{#each comments}}
+    <li>
+      <h4>{{name}}</h4>
+      <p>{{text}}</p>
+    </li>
+  {{/each}}
   <div class="nav-wrapper-desktop">
     <nav class="user-nav" id="user-nav">
       <ul class="user-nav-list">
